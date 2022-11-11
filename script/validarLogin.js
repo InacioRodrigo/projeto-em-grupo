@@ -6,7 +6,7 @@ function validarLogin() {
     if (emailLogin=='' || senhaLogin=='') {
         alert('Preencha todos os campos')
     } else if (emailLogin=='user123@fleming.com' && senhaLogin== 123) {
-        conectando.href = "login_for_business.html"
+        conectando.href = "dashBoard.html"
     } else {
         alert('Email ou Senha invalidos. Tente novamente')
     }
@@ -26,5 +26,7 @@ function validarLoginBusiness() {
     }
 }
 
-
-
+function loginBusiness() {
+    const conectando = document.querySelector("#conectado");
+    conectando.href = "login_for_business.html";
+}

@@ -14,7 +14,7 @@
     justify-self: center;
     flex-direction: column;
     padding: 40px;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 31px;
 }
 
@@ -26,12 +26,13 @@
     color: #fff;
     font-weight: 800;
     font-size: 1.5vw;
+    padding: 30px;
 }
 
 .contSimulador .contInput {
     width: auto;
     height: auto;
-    margin-top: 70px;
+    margin-top: 0px;
     outline: unset;
     border: none;
 
@@ -44,6 +45,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 1.2vw;
+    padding: 30px;
 
 
 }
@@ -71,6 +73,7 @@ input {
 
 .contSimulador .calcButton {
     margin: auto;
+    padding: 30px;
 }
 
 .contSimulador .calcButton button {

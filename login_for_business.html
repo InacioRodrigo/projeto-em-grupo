@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="shortcut icon" href="assets/Img_Icon_Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/loginStyle.css" />
-    <script src="script/validarLogin.js"></script>
+    <script src="script/LoginBusiness.js"></script>
     <script src="script/modal.js"></script>
     <title>Fleming</title>
   </head>
@@ -26,12 +26,14 @@
           <img src="assets/Img_Login.svg" alt="Imagem de Login" />
         </div>
         <div class="containerTextLogin">
-          <div><h2>Login For Besiness</h2></div>
+          <div><h2>Login Empresarial</h2></div>
           <div class="containerInput">
             <label for="">E-mail</label>
             <input placeholder="Digite o e-mail cadastrado" type="email" class="input1 " id="login"/>
             <label for="">Senha</label>
             <input type="password" placeholder="*********"  id="senha"/>
+            <label for="">Cargo</label>
+            <input type="text">
           </div>
           <div class="buttonLogin" onclick="validarLoginBusiness()"><a href="#" id="conectar">Conectar</a></div>
           <p>Não é nosso cliente?<span class="linkCadastro" onclick="acao()"><a href="#"> Clique aqui</a></span></p>

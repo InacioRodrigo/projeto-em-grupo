@@ -11,3 +11,4 @@ function validarLogin() {
         alert('Email ou Senha invalidos. Tente novamente')
     }
 }
+

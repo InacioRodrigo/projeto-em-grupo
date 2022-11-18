@@ -139,7 +139,9 @@ nav ul ul li a{
     display: flex;
     
 }
-
+.grafico{
+    border: #326F92 solid 3px;
+}
 .containerGraficos .grafico {
     width: 40vw;
     height: 40vh;
@@ -155,7 +157,12 @@ nav ul ul li a{
 }
 .chart-container{
     margin: auto;
+    display: flex;
+    justify-content: center;
    
+}
+#myChart2{
+    margin: solid 3px #345e77;
 }
 .textAler{
     font-family: 'Roboto';
@@ -172,7 +179,7 @@ nav ul ul li a{
 .title{
     font-family: 'Roboto';
         font-weight: 800;
-        font-size: 1.35vw;
+        font-size: 1.2vw;
         color: #fff;
         text-align: center;
         margin-top: 5px;
